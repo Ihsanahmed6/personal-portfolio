@@ -1,91 +1,63 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Ihsan Ahmed",
+  title: "Aspiring Computer Engineer & Data Scientist",
+  description: "Portfolio website of Ihsan Ahmed",
+  accentColor: "#f783bf",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ihsanahmedn569@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ihsan-ahmed-10783340a/",
+    twitter: "https://x.com/ihsanahmed_",
+    github: "https://github.com/Ihsanahmed6",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe:  
+  "I am a high school student passionate about computer engineering, data science, and artificial intelligence. I enjoy learning new programming languages, building technical projects, and expanding my technical skills. My goal is to study at Georgia Tech and use technology to solve real-world problems.",
+    skills: ["JavaScript", "Python", "HTML", "CSS", "Git", "GitHub"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Personal Portfolio Website",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+    "Designed and customized a personal portfolio website using Astro, Git, and GitHub. The website showcases my technical skills, projects, education, and career goals as an aspiring computer engineer and data scientist.",
+      link: "",
+      skills: ["Astro", "Git", "GitHub"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Travel Guide App",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      "Developed an interactive travel recommendation app in Code.org App Lab for the AP Computer Science Principles Create Performance Task. Users enter their preferred budget, climate, and activities, and the app recommends a travel destination while providing information about the location.",
+      link: "https://studio.code.org/projects/applab/fa20df53-501b-4ad2-be10-0245571a3581",
+      skills: ["JavaScript", "App Lab", "Problem Solving"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "ThinkNeuro",
+      title: "Software Engineering Intern",
+      dateRange: "Summer 2026",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Participated in a software engineering internship focused on Git, GitHub, and modern web development.",
+        "Built and customized a professional portfolio website using Astro.",
+        "Developed technical and collaboration skills through hands-on coding workshops and projects.",
       ],
     },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+     {
+    company: "Girls Who Code",
+    title: "Summer Program Participant",
+    dateRange: "Summer 2026",
+    bullets: [
+      "Strengthened programming and problem-solving skills through hands-on coding activities.",
+      "Collaborated with peers while exploring computer science concepts and real-world applications.",
+    ],
+  },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Brookwood High School",
+      degree: "High School Student",
+      dateRange: "Expected Graduation: 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Honor Roll all semesters",
+        "4.1 GPA",
+        "National Latin Exam Gold Medalist",
       ],
     },
   ],
